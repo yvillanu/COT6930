@@ -26,7 +26,7 @@ class RSA:
         return pow_mod_n(m, e, n)
 
     def rsa_decrypt(c, private_key):
-        n, e = private_key
+        n, d = private_key
         return pow_mod_n(c, d, n)
 
 
