@@ -9,6 +9,7 @@ class RSA:
     def __init__(self):
         x = 0
 
+    # Doesn't this belong to the Module class instead? For one, it depends on the function mult. 
     def pow_mod_n(a, b, n):
         if b == 0:
             return 1
